@@ -2,14 +2,15 @@ import numpy as np
 
 # --- CONFIGURACIÓN DE CÁMARAS ---
 # Canales: Norte, Sur, Este, Oeste
-CAMERA_CHANNELS = [2, 3, 1, 4]
+CAMERA_CHANNELS = [4, 3, 2, 1]
 CAMERA_NAMES = ["Camara Norte", "Camara Sur", "Camara Este", "Camara Oeste"]
 
 # Índices
-NORTE_IDX = 3
-SUR_IDX = 2
-ESTE_IDX = 1
-OESTE_IDX = 0
+NORTE_IDX = 2
+SUR_IDX = 3
+
+ESTE_IDX = 0
+OESTE_IDX = 1
 
 # --- ZONAS DE DETECCIÓN ---
 zonaRectoCamaraEste = np.array([[116, 115],
